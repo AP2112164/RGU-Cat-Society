@@ -1,0 +1,85 @@
+<html>
+
+<head>
+	<title>RGU Cat Society</title>
+	<link rel="stylesheet" href="assets/CSS/mtc-css.css">
+</head>
+
+<body style="background-color: #A2A2A2">
+	
+	<!-- Nav bar -->
+	
+	<header>
+        <div id="logo">
+			<a href = "index.html"><img src="assets/images/logo.png" alt="cat society logo"></a>
+        </div>
+        <nav>
+			<a>Events</a>
+			<a>Cats</a>
+			<a>Members</a>
+			<a href = "merch.html">Merch</a>
+			<a>Charity</a>
+			<a>Cat Care</a>
+			<a>Gallery</a>
+			<a>Contact</a>
+        </nav>
+        <div id="btn">
+          <a>Sign Up / Login</a>
+        </div>
+	</header>
+	
+	<!-- Nav bar end -->
+	
+	<h2 style="text-align:center; color: white" id="meet_the_cats">Meet the cats</h2>
+	<p style="text-align:center; color: white"id="p1">Here are the cats that are in our society!</p>
+	
+	<!-- Cats -->
+	<div class="container">
+	
+	<div class="border">
+		<div class="gallery">
+			<h3 style="color:white; text-align:center">KATSU</h3>
+			<img src="assets/images/katsu.jpg" alt="Katsu the cat" class="image" style="width:297; height:333;"></img>
+			<p style="color:white" >Katsu is a very playful and energetic cat! She is not shy when it comes to meeting people, so make sure to say hi!</p>
+		</div>
+	</div>
+	
+	<div class="border">
+		<div class="gallery">
+			<h3 style="color:white; text-align:center">FABIAN</h3>
+			<img src="assets/images/katsu.jpg" alt="Katsu the cat" class="image" style="width:297; height:333;"></img>
+			<p style="color:white">Fabian is a very curious cat! He loves exploring and looking around for new things to play with.</p>
+		</div>
+	</div>
+	
+	<div class="border">
+		<div class="gallery">
+			<h3 style="color:white; text-align:center">MICHAEL</h3>
+			<img src="assets/images/katsu.jpg" alt="Katsu the cat" class="image" style="width:297; height:333;"></img>
+			<p style="color:white">Michael is a very shy boy. It takes him a lot of time to get warmed up to new people, but he is a sweetheart!</p>
+		</div>
+	</div>
+	
+	<div class="border">
+		<div class="gallery">
+			<h3 style="color:white; text-align:center">MICHAEL</h3>
+			<img src="assets/images/katsu.jpg" alt="Katsu the cat" class="image" style="width:297; height:333;"></img>
+			<p style="color:white">Michael is a very shy boy. It takes him a lot of time to get warmed up to new people, but he is a sweetheart!</p>
+		</div>
+	</div>
+	
+	<div class="border">
+		<div class="gallery">
+			<h3 style="color:white; text-align:center">MICHAEL</h3>
+			<img src="assets/images/katsu.jpg" alt="Katsu the cat" class="image" style="width:297; height:333;"></img>
+			<p style="color:white">Michael is a very shy boy. It takes him a lot of time to get warmed up to new people, but he is a sweetheart!</p>
+		</div>
+	</div>
+	
+	</div>
+	<!-- Cats end -->
+	
+
+</body>
+
+</html>
