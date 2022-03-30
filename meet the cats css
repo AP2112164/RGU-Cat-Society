@@ -1,0 +1,147 @@
+/*Fonts*/
+
+@font-face {
+  font-family: font1;
+  src: url('ArtsyCatR.otf') format('opentype');
+}
+
+@font-face {
+  font-family: font2;
+  src: url('ThinkBig.otf') format('opentype');
+}
+/*------------*/
+
+h2{
+	font-family: "font2";
+}
+h3{
+	font-family: "font2";
+}
+p{
+	font-family: "font1";
+}
+
+
+/*Nav bar start*/
+
+  *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: font1, serif
+}
+
+main{
+  width: 100%;
+  height: auto;
+  overflow: auto;
+  background-color: #1c4060;
+}
+
+header{
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #33272c;
+}
+
+#logo{
+  width: 10%;
+  height: 80px;
+  float: left;
+}
+
+#logo img{
+  width: auto;
+  height: 80px;
+  margin-left: 20px;
+}
+
+nav{
+  width: 60%;
+  height: 80px;
+  float: left;
+  margin-left: 10%;
+}
+
+nav a{
+  display: block;
+  float: left;
+  width: 12.5%;
+  font-size: 25px;
+  font-family: font2, serif;
+  text-align: center;
+  height: 80px;
+  line-height: 80px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+nav a:hover{
+  color: #e89636;
+  transition: 0.3s;
+  font-size: 26px;
+}
+
+#btn{
+  width: 10%;
+  float: left;
+  margin-top: 10px;
+  margin-left: 5%;
+}
+
+#btn a{
+  background: #e89636;
+  height: 60px;
+  display: block;
+  font-size: 25px;
+  text-align: center;
+  text-decoration: none;
+  color: #33272c;
+  line-height: 60px;
+  font-family: 'Think Big';
+}
+
+#btn a:hover{
+  background: #ffdb75;
+  font-size: 24px;
+  transition: 0.3s;
+}
+
+/*Nav bar end*/
+
+
+/*GALLERY START */ 
+.image{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.container .border{
+	background-color: #33272C;
+	border-radius: 15px;
+	/*height: 100%;*/
+	/*margin: 20px;*/
+}
+
+.container .gallery{
+	position: relative;
+
+}
+
+.container p{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.container{
+	width: 75%;
+	height: 145%;
+	margin: auto;
+	display: grid;
+	grid-template-columns: repeat(3, .5fr);
+	grid-gap: 5px;
+}
