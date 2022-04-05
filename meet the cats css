@@ -24,12 +24,12 @@ p{
 
 /*Nav bar start*/
 
-  *{
+/*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: font1, serif
-}
+}*/
 
 main{
   width: 100%;
@@ -45,6 +45,7 @@ header{
   top: 0;
   left: 0;
   background: #33272c;
+  z-index: 18;
 }
 
 #logo{
@@ -110,38 +111,49 @@ nav a:hover{
   transition: 0.3s;
 }
 
-/*Nav bar end*/
+/*------------------------*/
 
 
-/*GALLERY START */ 
+/*Title + subtitle*/
+
+.title-container {
+	padding-top: 5.5%;
+	padding-bottom: 1%;
+}
+
+/*-------------------------*/
+
+
+/* Cats start */ 
 .image{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-.container .border{
-	background-color: #33272C;
-	border-radius: 15px;
-	/*height: 100%;*/
-	/*margin: 20px;*/
-}
+/*.row{
+	display: flex; 
+	align-items: center; 
+	justify-content: center;
+}*/
 
-.container .gallery{
-	position: relative;
-
-}
-
-.container p{
+.border p{
+	padding-top: 5px;
 	padding-left: 15px;
 	padding-right: 15px;
 }
 
-.container{
-	width: 75%;
-	height: 145%;
-	margin: auto;
-	display: grid;
-	grid-template-columns: repeat(3, .5fr);
-	grid-gap: 5px;
+.border h3{
+	font-size: 24px;
+}
+
+.border{
+	background-color: #64798B;
+	border-radius: 16px;
+	width: 350px;
+	height: 525px;	
+	margin: 10px;
+	/*box-shadow: 3px 4px 7px 1px black;*/
+	box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
+	float: left;
 }
