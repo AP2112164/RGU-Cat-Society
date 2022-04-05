@@ -1,0 +1,3 @@
+Put this code in the body tag of your html code, make sure that the image name is entered correctly
+
+<link rel="shortcut icon" type="image/png" href="rgu-cats-logo.png"/>
