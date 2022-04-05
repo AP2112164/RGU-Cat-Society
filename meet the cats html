@@ -92,7 +92,7 @@
 		<div class="border">
 			<div class="gallery">
 				<h3 style="color:white; text-align:center">SMUDGE</h3>
-				<img src="assets/images/unnamed3.jpg" alt="Smudge the cat" class="image" style="width:297; height:333;"></img>
+				<img src="assets/images/smudge.jpg" alt="Smudge the cat" class="image" style="width:297; height:333;"></img>
 				<p style="color:white">Smudge loves to find comfy places to chill. She may seem like she likes alone time, but don't be fooled, she likes when people come up to her!</p>
 			</div>
 		</div>
@@ -110,7 +110,7 @@
 		<div class="border">
 			<div class="gallery">
 				<h3 style="color:white; text-align:center">LION</h3>
-				<img src="assets/images/unnamed2.jpg" alt="Lion the cat" class="image" style="width:297; height:333;"></img>
+				<img src="assets/images/lion.jpg" alt="Lion the cat" class="image" style="width:297; height:333;"></img>
 				<p style="color:white">Lion is a very small kitten, with a lot of energy!. He loves to play with toys, so don't be shy to pick up a toy and play with him.</p>
 			</div>
 		</div>
