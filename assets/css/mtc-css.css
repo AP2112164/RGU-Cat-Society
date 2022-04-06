@@ -1,0 +1,159 @@
+/*Fonts*/
+
+@font-face {
+  font-family: font1;
+  src: url('ArtsyCatR.otf') format('opentype');
+}
+
+@font-face {
+  font-family: font2;
+  src: url('ThinkBig.otf') format('opentype');
+}
+/*------------*/
+
+h2{
+	font-family: "font2";
+}
+h3{
+	font-family: "font2";
+}
+p{
+	font-family: "font1";
+}
+
+
+/*Nav bar start*/
+
+/*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: font1, serif
+}*/
+
+main{
+  width: 100%;
+  height: auto;
+  overflow: auto;
+  background-color: #1c4060;
+}
+
+header{
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #33272c;
+  z-index: 18;
+}
+
+#logo{
+  width: 10%;
+  height: 80px;
+  float: left;
+}
+
+#logo img{
+  width: auto;
+  height: 80px;
+  margin-left: 20px;
+}
+
+nav{
+  width: 60%;
+  height: 80px;
+  float: left;
+  margin-left: 10%;
+}
+
+nav a{
+  display: block;
+  float: left;
+  width: 12.5%;
+  font-size: 25px;
+  font-family: font2, serif;
+  text-align: center;
+  height: 80px;
+  line-height: 80px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+nav a:hover{
+  color: #e89636;
+  transition: 0.3s;
+  font-size: 26px;
+}
+
+#btn{
+  width: 10%;
+  float: left;
+  margin-top: 10px;
+  margin-left: 5%;
+}
+
+#btn a{
+  background: #e89636;
+  height: 60px;
+  display: block;
+  font-size: 25px;
+  text-align: center;
+  text-decoration: none;
+  color: #33272c;
+  line-height: 60px;
+  font-family: 'Think Big';
+}
+
+#btn a:hover{
+  background: #ffdb75;
+  font-size: 24px;
+  transition: 0.3s;
+}
+
+/*------------------------*/
+
+
+/*Title + subtitle*/
+
+.title-container {
+	padding-top: 5.5%;
+	padding-bottom: 1%;
+}
+
+/*-------------------------*/
+
+
+/* Cats start */ 
+.image{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*.row{
+	display: flex; 
+	align-items: center; 
+	justify-content: center;
+}*/
+
+.border p{
+	padding-top: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.border h3{
+	font-size: 24px;
+}
+
+.border{
+	background-color: #64798B;
+	border-radius: 16px;
+	width: 350px;
+	height: 525px;	
+	margin: 10px;
+	/*box-shadow: 3px 4px 7px 1px black;*/
+	box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
+	float: left;
+}
