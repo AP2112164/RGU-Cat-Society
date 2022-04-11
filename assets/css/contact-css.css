@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: font1;
-  src: url('ArtsyCatRegular-Regular.ttf.otf') format('opentype');
+  src: url('ArtsyCatR.otf') format('opentype');
 }
 
 @font-face {
@@ -19,8 +19,8 @@ body {
 /*Nav bar start*/
 
 *{
-  margin: 0;
-  padding: 0;
+	margin: 0;
+	padding: 0;
 }
 
 main{
@@ -183,7 +183,7 @@ h3 {
 }
 
 .container-centered{
-    width: 80%;
+	width: 80%;
     height: auto;
     margin: 0 auto;
     position: relative;
@@ -205,18 +205,19 @@ h3 {
 }
 
 
-/*----------------------*/
+/*------------------------------------------------*/
 
 /* Footer */
 
 footer{
-  position: absolute;
-  bottom: 0;
   display: flex;
+  position: absolute;
+  bottom: -20%;
   width: 100%;
   height: 80px;
   background-color: #33272c;
   color: #ffffff;
+  font-family: font2;
   font-size: 18px;
   align-items: center;
 }
@@ -253,12 +254,12 @@ section{
 }
 
 section h2{
-	font-family: 'Think Big';
+	font-family: 'font2';
 	font-size: 24px;
 }
 
 section p, ul, li{
-	font-family:'Artsy Cat';
+	font-family:'font2';
 	font-size: 20px;
 }
 
