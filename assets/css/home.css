@@ -1,0 +1,167 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main{
+  width: 100%;
+  height: auto;
+  overflow: auto;
+  background-color: #1c4060;
+}
+
+/* @font-face {
+  font-family: 'Think Big';
+  src: url("assets/fonts/ThinkBig.otf") format("opentype");
+}
+
+@font-type {
+  font-family: 'Artsy Cat';
+  src: url("assets/fonts/ArtsyCatRegular-Regular.tff.otf") format("opentype");
+} */
+
+header{
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #33272c;
+  z-index: 18;
+}
+
+#logo{
+  width: 10%;
+  height: 80px;
+  float: left;
+}
+
+#logo img{
+  width: auto;
+  height: 80px;
+  margin-left: 20px;
+}
+/* navigation bar start */
+nav{
+  width: 60%;
+  height: 80px;
+  float: left;
+  margin-left: 10%;
+}
+
+nav a{
+  display: block;
+  float: left;
+  width: 12.5%;
+  font-size: 25px;
+  font-family: 'Think Big';
+  text-align: center;
+  height: 80px;
+  line-height: 80px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+nav a:hover{
+  color: #e89636;
+  transition: 0.3s;
+  font-size: 26px;
+}
+
+#btn{
+  width: 10%;
+  float: left;
+  margin-top: 10px;
+  margin-left: 5%;
+}
+
+#btn a{
+  background: #e89636;
+  height: 60px;
+  display: block;
+  font-size: 25px;
+  text-align: center;
+  text-decoration: none;
+  color: #33272c;
+  line-height: 60px;
+  font-family: 'Think Big';
+}
+
+#btn a:hover{
+  background: #ffdb75;
+  font-size: 24px;
+  transition: 0.3s;
+}
+/* navigation bar end */ 
+section{
+  width: 80%;
+  height: auto;
+  margin-left: 10%;
+  margin-top: 120px;
+  margin-bottom: 80px;
+  border-radius: 5px;
+  border: 3px solid #e89636;
+  background: #969fa8;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+section h2{
+  padding: 60px 0;
+  text-align: center;
+  font-family: 'Think Big';
+  font-size: 32px;
+  font-weight: 200;
+  z-index: 18;
+}
+
+section p{
+  width: 94%;
+  height: auto;
+  font-family: 'Think Big';
+  font-size: 18px;
+  margin-left: 3%;
+  padding-bottom: 20px;
+}
+
+#additional-information p{
+  margin-bottom: 52px;
+}
+
+#cat-images{
+  width: 100%;
+  height: 360px;
+  background-color: #e89636;
+  margin-top: 50px;
+}
+
+#cat-images img{
+  height: 320px;
+  width: auto;
+  margin-top: 20px;
+  margin-left: 0.6%;
+}
+
+#video{
+  height: 380px;
+  width: auto;
+  background-color: #e89636;
+  margin-top: 50px;
+}
+
+#video iframe{
+  margin-top: 32px;
+  margin-left: 25%;
+}
+
+footer{
+  display: flex;
+  width: 100%;
+  height: 80px;
+  background-color: #33272c;
+  color: #ffffff;
+  font-size: 18px;
+  align-items: center;
+}

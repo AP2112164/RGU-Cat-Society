@@ -1,0 +1,275 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main{
+  width: 100%;
+  height: auto;
+  overflow: auto;
+  background-color: #1c4060;
+}
+
+/* @font-face {
+  font-family: 'Think Big';
+  src: url("assets/fonts/ThinkBig.otf"), format("opentype");
+}
+
+@font-type {
+  font-family: 'Artsy Cat';
+  src: url("assets/fonts/ArtsyCatRegular-Regular.tff.otf"), format("opentype");
+} */
+
+header{
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #33272c;
+  z-index: 18;
+}
+
+#logo{
+  width: 10%;
+  height: 80px;
+  float: left;
+}
+
+#logo img{
+  width: auto;
+  height: 80px;
+  margin-left: 20px;
+}
+/* navigation bar start */
+nav{
+  width: 60%;
+  height: 80px;
+  float: left;
+  margin-left: 10%;
+}
+
+nav a{
+  display: block;
+  float: left;
+  width: 12.5%;
+  font-size: 25px;
+  font-family: 'Think Big';
+  text-align: center;
+  height: 80px;
+  line-height: 80px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+nav a:hover{
+  color: #e89636;
+  transition: 0.3s;
+  font-size: 26px;
+}
+
+#btn{
+  width: 10%;
+  float: left;
+  margin-top: 10px;
+  margin-left: 5%;
+}
+
+#btn a{
+  background: #e89636;
+  height: 60px;
+  display: block;
+  font-size: 25px;
+  text-align: center;
+  text-decoration: none;
+  color: #33272c;
+  line-height: 60px;
+  font-family: 'Think Big';
+}
+
+#btn a:hover{
+  background: #ffdb75;
+  font-size: 24px;
+  transition: 0.3s;
+}
+/* navigation bar end */
+section{
+  width: 80%;
+  height: auto;
+  margin-left: 10%;
+  margin-top: 120px;
+  margin-bottom: 80px;
+  border-radius: 5px;
+  border: 3px solid #e89636;
+  background: #969fa8;
+  color: #ffffff;
+}
+
+section h2{
+  padding-top: 60px;
+  padding-bottom: 30px;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Think Big';
+  font-size: 32px;
+  font-weight: 200;
+}
+
+section p{
+  width: 94%;
+  height: auto;
+  font-family: 'Think Big';
+  font-size: 18px;
+  margin-left: 3%;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  border-top: 1px solid #e89636;
+  border-bottom: 1px solid #e89636;
+}
+
+section h3{
+  padding: 30px 0;
+  padding-left: 3%;
+  text-decoration: none;
+  font-family: 'Think Big';
+  font-size: 30px;
+  font-weight: 200;
+}
+/* this piece of code will be used for an interactive slideshow, which would be used for merchandise bar */
+.product-slide{
+  width: 100%;
+  height: 370px;
+  background: #e89636;
+  display: flex;
+  justify-content: left;
+  overflow: hidden;
+  transform: translateX(0);
+  transition: all 0.5s ease-in-out;
+}
+
+.slider{/* the field that stores each item */
+  margin: 25px 12px;
+  width: 250px;
+  background-color: #ffdb75;
+  border-radius: 5px;
+}
+
+.image{
+  position: relative;
+}
+
+.image img{
+  height: auto;
+  width: 250px;
+  object-fit: cover;
+  box-sizing: border-box;
+}
+
+.product-details{/* stores details about each item below the image*/
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px;
+  box-sizing: border-box;
+}
+
+.product-name{
+  display: flex;
+  flex-direction: column;
+}
+
+.product-name h5{
+  color: #000000;
+  margin: 3px 0px;
+  font-size: 15px;
+}
+
+main span{
+  margin: 2px 0px;
+  color: #0a0a0a;
+}
+
+.price{
+  font-size: 15px;
+  font-weight: bold;
+  color: #000000;
+  margin-top: 30px;
+}
+
+.Button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  height: 50px;
+  width: 150px;
+  background-color: #ffdb75;
+  color: #33272c;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.btn:hover{
+  background-color: #33272c;
+  color: #ffdb75;
+  transition: all ease 0.5s;
+}
+
+.Button{
+  visibility: hidden;
+}
+
+.image:hover .Button{
+  visibility: visible;
+  animation: animation 1s;
+}
+
+@keyframes animation{
+  0%{
+      opacity: 0;
+  }
+  100%{
+      opacity: 1;
+  }
+}
+
+.arrows{/* this will cause the slideshow to move to specific direction */
+  height: 360px;
+  width: 18px;
+  margin: 5px 2px; 
+  background-color: #ffdb75;
+  opacity: 0.6;
+  cursor: pointer;
+  z-index: 15;
+}
+
+.arrows img{
+  height: 18px;
+  width: 18px;
+  margin-top: 171px;
+}
+
+footer{
+  display: flex;
+  width: 100%;
+  height: 80px;
+  background-color: #33272c;
+  color: #ffffff;
+  font-size: 18px;
+  align-items: center;
+}
