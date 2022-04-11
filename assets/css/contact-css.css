@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: font1;
-  src: url('ArtsyCatR.otf') format('opentype');
+  src: url('ArtsyCatRegular-Regular.ttf.otf') format('opentype');
 }
 
 @font-face {
@@ -17,6 +17,12 @@ body {
 }
 
 /*Nav bar start*/
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
 main{
   width: 100%;
   height: auto;
@@ -177,7 +183,7 @@ h3 {
 }
 
 .container-centered{
-	width: 80%;
+    width: 80%;
     height: auto;
     margin: 0 auto;
     position: relative;
@@ -199,4 +205,71 @@ h3 {
 }
 
 
-/*-----------*/
+/*----------------------*/
+
+/* Footer */
+
+footer{
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  width: 100%;
+  height: 80px;
+  background-color: #33272c;
+  color: #ffffff;
+  font-size: 18px;
+  align-items: center;
+}
+
+footer>img{
+	width: 80px;
+}
+
+.outerborder{
+	background-color: #a08679;
+	border-radius: 16px;
+	padding: 30px;
+	margin: 40px;
+}
+
+.innerborder{
+	background-color: #64798b;
+	border-radius: 16px;
+	padding: 15px;
+	margin: 20;
+}
+
+section img{
+	width: 220px;
+	height: 150px;
+}
+
+section{
+	background-color: #33272c;
+	border-radius: 16px;
+	padding: 30px;
+	margin: 20px;
+	color: #FFFFFF;
+}
+
+section h2{
+	font-family: 'Think Big';
+	font-size: 24px;
+}
+
+section p, ul, li{
+	font-family:'Artsy Cat';
+	font-size: 20px;
+}
+
+
+.leftImage img{
+	float:left;
+	margin-right: 30px;
+}
+
+
+.rightImage img{
+	float:right;
+	margin-left: 0px;
+}
