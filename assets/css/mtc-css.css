@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: font1;
-  src: url('ArtsyCatRegular-Regular.ttf.otf') format('opentype');
+  src: url('ArtsyCatR.otf') format('opentype');
 }
 
 @font-face {
@@ -28,13 +28,6 @@ p{
   margin: 0;
   padding: 0;
 }
-
-/*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: font1, serif
-}*/
 
 main{
   width: 100%;
@@ -107,7 +100,7 @@ nav a:hover{
   text-decoration: none;
   color: #33272c;
   line-height: 60px;
-  font-family: 'font2';
+  font-family: 'Think Big';
 }
 
 #btn a:hover{
@@ -143,14 +136,12 @@ nav a:hover{
 }*/
 
 .border p{
-	padding-top: 10px;
+	padding-top: 5px;
 	padding-left: 15px;
 	padding-right: 15px;
 }
 
 .border h3{
-	padding-top: 7px;
-	padding-bottom: 5px;
 	font-size: 24px;
 }
 
@@ -164,8 +155,6 @@ nav a:hover{
 	box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
 	float: left;
 }
-
-/*------------------------------------------------*/
 
 /* Footer */
 
