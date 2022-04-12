@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Cat Society | Calendar</title>
+		<link rel="shortcut icon" type="image/png" href="rgu-cats-logo.png"/>
+		<link rel="stylesheet" href="calendar.css">
+	</head>
+	
+	<body>
+		<header>
+			<div id="logo">
+			  <a href = "index.html"><img src="assets/images/rgu-cat-society-header-logo.png" alt="cat society logo"></a>
+			</div>
+			
+			<nav>
+			  <a href = "calendar.html">Events</a>
+			  <a href = "meet-the-cats.html">Cats</a>
+			  <a>Members</a>
+			  <a href = "merch.html">Merch</a>
+			  <a>Charity</a>
+			  <a href = "catCare.html">Cat Care</a>
+			  <a>Gallery</a>
+			  <a href = "contact-us.html">Contact</a>
+			</nav>
+			
+			<div id="btn">
+			  <a>Sign Up / Login</a>
+			</div>
+		</header>
+		
+		<main>
+			<div class= "title-container">
+				<h1>Calendar</h1>
+				<p>Be sure to check out all our upcoming events!</p>
+			</div>
+		
+			<div class = "outerborder">
+				<div class= "innerborder">
+					<section class="leftImage">
+						<img src="assets/images/calendarCat.jpg">
+						
+						<div class="month">
+							<a onclick="currentMonth = monthBack(currentMonth, monthNames)" >↑</a>
+							<a onclick="currentMonth = monthForward(currentMonth, monthNames)" >↓</a>
+							<h1 id="monthID">Month Go Here</h1>
+							
+						</div>
+						
+						<div id= "event">
+							<ul>
+								<li id="eventName">Name: filler</li>
+								<li id="eventDescription">Description: filler</li>
+								<li id="eventTime">Time: filler</li>
+								<li id="eventAdditional">Additional: filler</li>
+							</ul>
+						</div>
+					</section>
+					
+					<div class="dayFloat">
+						<div class="day">
+							<a onclick="eventDay(1, currentMonth)">1</a>
+						</div>
+						
+						<div class="day">
+							<a onclick="eventDay(2, currentMonth)">2</a>
+						</div>
+							
+						<div class="day">
+							<a onclick="eventDay(3, currentMonth)">3</a>
+						</div>
+							
+						<div class="day">	
+							<a onclick="eventDay(4, currentMonth)">4</a>
+						</div>
+							
+						<div class="day">	
+							<a onclick="eventDay(5, currentMonth)">5</a>
+						</div>
+							
+						<div class="day">	
+							<a onclick="eventDay(6, currentMonth)">6</a>
+						</div>
+							
+						<div class="day">	
+							<a onclick="eventDay(7, currentMonth)">7</a>
+						</div>
+							
+						<div class="day">	
+							<a onclick="eventDay(8, currentMonth)">8</a>
+						</div>
+							
+						<div class="day">	
+							<a onclick="eventDay(9, currentMonth)">9</a>
+						</div>
+							
+						<div class="day">	
+							<a onclick="eventDay(10, currentMonth)">10</a>
+						</div>
+							
+						<div class="day">	
+							<a onclick="eventDay(11, currentMonth)">11</a>
+						</div>
+							
+						<div class="day">	
+							<a onclick="eventDay(12, currentMonth)">12</a>
+						</div>
+							
+						<div class="day">	
+							<a onclick="eventDay(13, currentMonth)">13</a>
+						</div>
+							
+						<div class="day">	
+							<a onclick="eventDay(14, currentMonth)">14</a>
+						</div>
+							
+						<div class="day">
+							<a onclick="eventDay(15, currentMonth)">15</a>
+						</div>
+							
+						<div class="day">	
+							<a onclick="eventDay(16, currentMonth)">16</a>
+						</div>
+							
+						<div class="day">	
+							<a onclick="eventDay(17, currentMonth)">17</a>
+						</div>
+							
+						<div class="day">	
+							<a onclick="eventDay(18, currentMonth)">18</a>
+						</div>
+							
+						<div class="day">	
+							<a onclick="eventDay(19, currentMonth)">19</a>
+						</div>
+							
+						<div class="day">	
+							<a onclick="eventDay(20, currentMonth)">20</a>
+						</div>
+							
+						<div class="day">	
+							<a onclick="eventDay(21, currentMonth)">21</a>
+						</div>
+							
+						<div class="day">	
+							<a onclick="eventDay(22, currentMonth)">22</a>
+						</div>
+							
+						<div class="day">	
+							<a onclick="eventDay(23, currentMonth)">23</a>
+						</div>
+
+						<div class="day">
+							<a onclick="eventDay(24, currentMonth)">24</a>
+						</div>
+							
+						<div class="day">	
+							<a onclick="eventDay(25, currentMonth)">25</a>
+						</div>
+							
+						<div class="day">	
+							<a onclick="eventDay(26, currentMonth)">26</a>
+						</div>
+							
+						<div class="day">	
+							<a onclick="eventDay(27, currentMonth)">27</a>
+						</div>
+							
+						<div class="day">	
+							<a onclick="eventDay(28, currentMonth)">28</a>
+						</div>
+							
+						<div class="day">	
+							<a onclick="eventDay(29, currentMonth)">29</a>
+						</div>
+							
+						<div class="day" id="day30">	
+							<a onclick="eventDay(30, currentMonth)">30</a>
+						</div>
+							
+						<div class="day" id="day31">	
+							<a onclick="eventDay(31, currentMonth)">31</a>
+						</div>
+					</div>
+					
+					
+				</div>
+			</div>
+			
+			<script type="text/javascript" src="js/calendarScript.js"></script>
+			<script type="text/javascript" src="js/eventScript.js"></script>
+		</main>
+		
+		<footer>
+			<img src="assets/images/map-marker.webp" alt="Map Marker" style="width:36; height:36; padding:1%;"> </img>
+			<span>Aberdeen,<br>Scotland</span> <span style="margin-left: auto; padding:1%;">Robert Gordon University's Cat Society</span>
+        </footer>
+	</body>
+	
+</html>
